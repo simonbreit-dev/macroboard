@@ -1,0 +1,336 @@
+(footprint "J2_samtec_tsw-102-07-g-s"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Pin Header, 01x02W, 2.54mm, PTH, Male")
+	(property "Reference" "REF**"
+		(at 0 0 270)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0beb67a5-38ce-43c3-924d-ae0fa3e15a29")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "TSW-102-07-G-S"
+		(at 0 2.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec2e22cf-859e-4dd2-b665-71c9060339b3")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.125)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Connectors\\Pin_Headers\\SAMTEC_TSW-102-07-G-S\\datasheets"
+		(at 2.54 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "51d9bc8f-b6ce-4d2b-81b3-38c776ba1b31")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Pin Header, 01x02W, 2.54mm, PTH, Male"
+		(at 2.54 -1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "08edb9c5-a579-4498-9349-d54c6eb3f7fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "part_uid" "RP-01JV5X-LY21H5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b6bcc686-d790-45db-9e61-54bff872299c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturer" "Samtec"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "edf2c8f5-effc-44d8-928c-e70e0b13f335")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturer_pn" "TSW-102-07-G-S"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4af01727-bccb-4ebe-b58e-d8042e9f3918")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "packaging" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "32595883-dcbf-4443-8019-0464174f0f35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "packaging_qty" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "aba99484-b387-43bd-b322-442792ca8c18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "z_height_max" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "65876344-6d9b-4b50-b5bc-da022b4cfdba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "size" "5.08x2.54x10.92mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ec9df57a-a6c8-4567-baba-7a03106cce1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "package" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "10c274dc-7c6c-445a-b768-fa938edd51a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "z_height_nom" "8.38mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a1b2d1fb-f232-4651-b8ba-9325ce08bb81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c96960fe-c1e7-4082-875c-b16f89b10535")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/RPI-RP2040-MINIMAL_R3-S1/")
+	(sheetfile "RPI-RP2040-MINIMAL_R3-S1.kicad_sch")
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.615 1.345)
+		(end 2.615 -1.345)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "dbdcc430-2740-4221-9089-1401f102276e")
+	)
+	(fp_poly
+		(pts
+			(xy -2.54 0.8128) (xy -2.54 1.27) (xy -2.0828 1.27)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6bff660f-ec34-4b9d-8f7f-35167c395e60")
+	)
+	(fp_rect
+		(start -2.54 -1.27)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "13dcf410-9eee-41dc-9469-8de76afaada1")
+	)
+	(fp_circle
+		(center -1.27 0)
+		(end -0.77 0)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "596a40e7-930f-4cc3-b03a-9bffe69a7cc8")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 1.77 0)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "B.Fab")
+		(uuid "9031c189-43ac-43b2-9ea6-759a55f405e3")
+	)
+	(fp_rect
+		(start -2.54 1.27)
+		(end 2.54 -1.27)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ef579411-3f48-40d1-9722-396778923dc6")
+	)
+	(fp_circle
+		(center -1.27 0)
+		(end -0.77 0)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a7271d1b-218b-4dee-bf39-0536c5547831")
+	)
+	(fp_circle
+		(center 1.27 0)
+		(end 1.77 0)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "350ba41d-76fd-4720-8046-3694bf9b138f")
+	)
+	(fp_poly
+		(pts
+			(xy -2.54 0.6096) (xy -2.54 1.27) (xy -1.8796 1.27)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "377b4686-595f-4ed4-8c22-5b64f9db3a6a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ffa2ae07-7840-4773-94db-72cfdeada77e")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.01)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -1.27 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "64c64b78-e01f-430b-a0e1-9842ae7dfec8")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 1.6 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "78296111-1d44-47a0-a31f-d413dfba6146")
+	)
+	(embedded_fonts no)
+	(model "kicad-embed://samtec_tsw-102-07-g-s.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

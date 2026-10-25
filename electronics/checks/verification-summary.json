@@ -1,0 +1,46 @@
+{
+  "revision": "2026-10-17 TOP-USB RP2040",
+  "board_SHA256": "9fd2901c903abd8191913d299989c520ec7a5caf3d1a955ca529f46cd2e93b87",
+  "board_mm": [
+    80,
+    82
+  ],
+  "previous_board_mm": [
+    80,
+    82
+  ],
+  "area_change_from_previous_percent": 0.0,
+  "area_reduction_from_80x122_percent": 32.79,
+  "copper_layers": 4,
+  "nominal_thickness_mm": 1.0,
+  "ERC_violations_including_exclusions": 0,
+  "DRC_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "pad_net_mismatches": 0,
+  "via_in_pad": 0,
+  "via_pad_gap_below_0_10mm": 0,
+  "vias_total": 149,
+  "vias_tented_both_sides": 149,
+  "USB_In2_GND_samples_missing": 0,
+  "assembly_variants": {
+    "pcbway-one-side": {
+      "factory_parts": 67,
+      "Bottom": 67,
+      "Top": 0,
+      "manual_Top_C20_C21": true,
+      "BOM_groups": 19
+    },
+    "pcbway-all-smd": {
+      "factory_parts": 69,
+      "Bottom": 67,
+      "Top": 2,
+      "manual_Top_C20_C21": false,
+      "BOM_groups": 19
+    }
+  },
+  "hardware_function_tested": false,
+  "USB_impedance_status": "Manufacturer must confirm 90 ohm +/-10% with actual stackup; no field-solver or physical measurement",
+  "GPIO_changes_from_previous_compact_revision": {},
+  "LED_mapping": "led-key-map.csv; D1 at SW3 upper-right, serpentine chain down to SW12"
+}

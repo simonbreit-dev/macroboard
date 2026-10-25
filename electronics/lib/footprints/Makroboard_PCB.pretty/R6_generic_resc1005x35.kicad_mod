@@ -1,0 +1,209 @@
+(footprint "R6_generic_resc1005x35"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "27ohm 1% 62.5mW")
+	(property "Reference" "REF**"
+		(at 0 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "49af3823-444b-4ff7-a459-6dd1c9597e5d")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "27"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f25119b8-7b4d-496e-9dff-09aae96531bc")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.01)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C25100.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7a5a0e7e-7748-4770-8b69-aa8857cf7043")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "27ohm 1% 62.5mW"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f03ca01b-4590-4b04-b091-e0f7a3322a7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "package" "0402"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "22e3232d-0175-40c4-b700-936df4cf9a44")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturer" "UNI-ROYAL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "406ee663-4049-4ac2-b7f4-3c60bed5905a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturer_pn" "0402WGF270JTCE"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2fd835c5-713d-40e3-87ea-4d344bfb4ad9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C25100"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6ae13391-f50a-4ae9-aad0-b5f0e10c8cd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier URL" "https://www.lcsc.com/product-detail/C25100.html"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9af4e385-df8d-4124-a954-1e079a299fcd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Assembly note" "LCSC-Seite zeigte bei Recherche keinen Bestand; JLC-Bestand bzw. gleichwertigen 27ohm-0402-1%-Ersatz im Auftrag wählen."
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "649ab130-9547-4921-98e5-f3d8529f05d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/RPI-RP2040-MINIMAL_R3-S1/")
+	(sheetfile "RPI-RP2040-MINIMAL_R3-S1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "8445d71c-3a81-42ec-a623-705eca5b1078")
+	)
+	(fp_rect
+		(start -0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "29bf2e5d-5db5-4623-9f9c-283a95defb35")
+	)
+	(fp_rect
+		(start -0.25 -0.25)
+		(end 0.25 0.25)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a5ff860a-107f-495d-94df-7b2c4f11863a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eb9c23ef-66b2-42af-930b-39b528a8da41")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.01)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.475 0)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6ec89e0b-d3e9-472d-a021-2cc5665e8273")
+	)
+	(pad "2" smd rect
+		(at 0.475 0)
+		(size 0.55 0.55)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c3dbab27-5501-4689-8dc5-b4f6e1e420eb")
+	)
+	(embedded_fonts no)
+	(model "kicad-embed://generic_resc1005x35.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

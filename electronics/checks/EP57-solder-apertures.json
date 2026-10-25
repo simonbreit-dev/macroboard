@@ -1,0 +1,34 @@
+{
+  "board_SHA256": "9fd2901c903abd8191913d299989c520ec7a5caf3d1a955ca529f46cd2e93b87",
+  "reference": "U4",
+  "pad": "57",
+  "net": "GND",
+  "copper_size_mm": [
+    3.2,
+    3.2
+  ],
+  "outer_copper_layers": [
+    "B.Cu"
+  ],
+  "mask_opening_graphics": 8,
+  "paste_window_graphics": 16,
+  "via_in_pad": 0,
+  "local_external_ground_vias": [
+    [
+      173.75,
+      91.4
+    ],
+    [
+      173.75,
+      88.6
+    ],
+    [
+      169.25,
+      91.4
+    ],
+    [
+      169.25,
+      88.6
+    ]
+  ]
+}

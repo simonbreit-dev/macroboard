@@ -1,0 +1,4 @@
+(fp_lib_table
+ (version 7)
+ (lib (name "Makroboard_PCB") (type "KiCad") (uri "${KIPRJMOD}/lib/footprints/Makroboard_PCB.pretty") (options "") (descr "Project-local footprints for the USB-C revision"))
+)

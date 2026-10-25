@@ -1,0 +1,352 @@
+(footprint "U3_generic_soic127p790x195-8"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "128Mbit QSPI NOR flash")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d188d17e-6b08-43d3-8b4b-a809c7333556")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "W25Q128JVSIQ"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb08fc39-1979-48b5-be36-dcbe5cc06b7b")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.01)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C97521.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "834cda10-344e-49d8-b1a0-d85cf011a25c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "128Mbit QSPI NOR flash"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "98ee2161-7a57-49a8-b6a6-7d129ca777f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturer" "Winbond"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "27b85e71-9d2c-453e-b8a6-451b2ba65a9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturer_pn" "W25Q128JVSIQ"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e05087c4-6ba1-4da9-8612-6a6cbc35d4bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "package" "SOIC-8-208mil"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5939c990-411c-4152-9375-73728804fccc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C97521"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b7c88536-8045-4ffe-8f12-2baf50d99257")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier URL" "https://www.lcsc.com/product-detail/C97521.html"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "6a1cfbbf-115c-4a54-9610-958f5cb4f68e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Assembly note" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "52a2d629-73c2-43aa-a997-87bde89859f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/RPI-RP2040-MINIMAL_R3-S1/")
+	(sheetfile "RPI-RP2040-MINIMAL_R3-S1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -3.6 -2.8)
+		(end -3.4 -2.8)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "2b918091-c3ba-49cb-aabe-8aa5ec8c9430")
+	)
+	(fp_poly
+		(pts
+			(xy 2.64 -2.115) (xy 3.95 -2.115) (xy 3.95 -1.695) (xy 2.64 -1.695) (xy 2.64 -0.845) (xy 3.95 -0.845)
+			(xy 3.95 -0.425) (xy 2.64 -0.425) (xy 2.64 0.425) (xy 3.95 0.425) (xy 3.95 0.845) (xy 2.64 0.845)
+			(xy 2.64 1.695) (xy 3.95 1.695) (xy 3.95 2.115) (xy 2.64 2.115) (xy 2.64 2.64) (xy -2.64 2.64) (xy -2.64 2.115)
+			(xy -3.95 2.115) (xy -3.95 1.695) (xy -2.64 1.695) (xy -2.64 0.845) (xy -3.95 0.845) (xy -3.95 0.425)
+			(xy -2.64 0.425) (xy -2.64 -0.425) (xy -3.95 -0.425) (xy -3.95 -0.845) (xy -2.64 -0.845) (xy -2.64 -1.695)
+			(xy -3.95 -1.695) (xy -3.95 -2.115) (xy -2.64 -2.115) (xy -2.64 -2.64) (xy 2.64 -2.64)
+		)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5d3183ce-8057-467d-879e-062e824cc696")
+	)
+	(fp_rect
+		(start -3.95 -2.115)
+		(end -2.64 -1.695)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "dd2131fa-92d4-470b-b76e-89a266ef3996")
+	)
+	(fp_rect
+		(start -3.95 -0.845)
+		(end -2.64 -0.425)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8292bf90-76dc-4e9b-adf5-685e9edaf6c0")
+	)
+	(fp_rect
+		(start -3.95 0.425)
+		(end -2.64 0.845)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "599f0316-bdd3-4431-9603-3e6e5a045917")
+	)
+	(fp_rect
+		(start -3.95 1.695)
+		(end -2.64 2.115)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bb7bbcc0-68ea-41e9-b223-b524cda8745d")
+	)
+	(fp_rect
+		(start -2.64 -2.64)
+		(end 2.64 2.64)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "831af24a-6815-43ef-86d3-9a0974a887a4")
+	)
+	(fp_rect
+		(start 2.64 -2.115)
+		(end 3.95 -1.695)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "298bf9e3-7ae5-46ff-a7c9-068acc3a08d5")
+	)
+	(fp_rect
+		(start 2.64 -0.845)
+		(end 3.95 -0.425)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "79850d3d-5584-490e-9e1e-c00c3da06b85")
+	)
+	(fp_rect
+		(start 2.64 0.425)
+		(end 3.95 0.845)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c4ffe0d9-7b38-4ef7-b921-c69b22fe2ffe")
+	)
+	(fp_rect
+		(start 2.64 1.695)
+		(end 3.95 2.115)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ea3b80ba-89a1-4637-b6e5-b0fb40f20152")
+	)
+	(fp_circle
+		(center -2 -1.905)
+		(end -1.8 -1.905)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "3a37317c-9bdd-4ada-b38b-c0fb89d8a28e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e978fe36-a122-438e-b146-1a363dd4385f")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.01)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -3.6 -1.905)
+		(size 1.7 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6cdadbc0-e6e3-4f56-9d32-8e7d788e02c8")
+	)
+	(pad "2" smd rect
+		(at -3.6 -0.635)
+		(size 1.7 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "bc88566f-ad83-4d98-9a0c-c0098caadae0")
+	)
+	(pad "3" smd rect
+		(at -3.6 0.635)
+		(size 1.7 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "86133edc-107a-4308-94ee-600f6ce3e2aa")
+	)
+	(pad "4" smd rect
+		(at -3.6 1.905)
+		(size 1.7 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "8da12e9d-f265-4cc8-b62d-e1abe245d130")
+	)
+	(pad "5" smd rect
+		(at 3.6 1.905)
+		(size 1.7 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e85dd350-1269-47cd-bb11-7c1ca1b71e79")
+	)
+	(pad "6" smd rect
+		(at 3.6 0.635)
+		(size 1.7 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1b0894c8-382e-4129-b429-a2438232367a")
+	)
+	(pad "7" smd rect
+		(at 3.6 -0.635)
+		(size 1.7 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03ebb010-6612-454b-94ed-05aca2765b6d")
+	)
+	(pad "8" smd rect
+		(at 3.6 -1.905)
+		(size 1.7 0.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4c07673b-0d89-4d19-9ec8-b9565aa699e3")
+	)
+	(embedded_fonts no)
+	(model "kicad-embed://generic_soic127p790x195-8.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

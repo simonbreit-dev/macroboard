@@ -1,0 +1,189 @@
+(footprint "C20_C_0805_2012Metric"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "100nF 16V X7R 10%")
+	(property "Reference" "C20"
+		(at 0.049999 -3.8 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cc2b778e-ddfc-4bf3-a4a4-a607ed33330d")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "100nF"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3709e0e-898a-439a-b25e-79e2a8ecb80d")
+		(effects
+			(font
+				(size 0.8 0.5)
+				(thickness 0.01)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C49678.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4663b761-0c43-4fc7-bec1-db4ec5756642")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "100nF 50V X7R 10%"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "534348b9-7625-44cb-9a79-efa513a947c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "package" "0805"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "54a7c732-5f72-4098-adab-3eb22d56d6eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturer" "Yageo"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "07b04598-2256-459f-af76-fb14d7d83a68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "manufacturer_pn" "CC0805KRX7R9BB104"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f3f2e94e-3c4a-41cc-b48a-6df0b7649237")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C49678"
+		(at 0 0 270)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1aa7917b-4c3a-415a-bcfd-d3067d92c20a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier URL" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
+		(at 0 0 270)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1a290aad-a2a9-417a-ae11-8101fe8992b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Assembly note" "Required Top 0805 DVDD cap. Hand solder for one-sided factory assembly, or populate with the full-SMD assembly variant."
+		(at 0 0 270)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "3958045d-0595-487b-98ae-2bccd207b093")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/RPI-RP2040-MINIMAL_R3-S1/")
+	(sheetfile "RPI-RP2040-MINIMAL_R3-S1.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -1.7 -0.9)
+		(end 1.7 0.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7f78169e-a5ff-4d27-9ccf-871aeaecf0f5")
+	)
+	(fp_rect
+		(start -1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c617c439-4acc-47ab-ba6e-cf1c027ce75a")
+	)
+	(pad "1" smd roundrect
+		(at -0.95 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(zone_connect 2)
+		(uuid "fad2c47f-3b98-4ad9-880d-bcb6ee19681b")
+	)
+	(pad "2" smd roundrect
+		(at 0.95 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(zone_connect 2)
+		(uuid "4e862b36-db91-4cc5-b1e6-c7056ba1bcef")
+	)
+	(embedded_fonts no)
+	(model "kicad-embed://generic_capc1005x50.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

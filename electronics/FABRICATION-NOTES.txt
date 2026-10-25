@@ -1,0 +1,60 @@
+MAKROBOARD — TOP-USB 80 x 82 mm — 2026-10-17
+
+Use only the matching TOP-USB revision's Gerbers, drill files, BOM and CPL.
+Do not mix with the earlier 80x82mm RIGHT-EDGE-USB revision, the 80x122mm
+revision, or earlier via-in-pad artwork. USB-C is now on the TOP edge.
+
+PCB: 80 x 82 mm, 4 layers, nominal finished thickness 1.0mm, FR4, ENIG.
+Finished copper target 35um / 1oz on all four layers.
+Copper order TOP -> BOTTOM:
+  L1 F.Cu: signals / VBUS pour / two Top-side 0805 capacitors C20, C21
+  L2 In1.Cu: continuous +3V3 plane; no signal tracks
+  L3 In2.Cu: continuous GND reference plane; no signal tracks
+  L4 B.Cu: controller, flash, crystal, USB, signals and GND pour
+
+USB DIFFERENTIAL IMPEDANCE
+USB D+/D- main pair on B.Cu, reference adjacent In2.Cu GND.
+Nominal main width 0.225mm, edge gap 0.150mm; target 90 ohms +/-10%.
+The B.Cu copper-pour keepout corridor along the main USB route is intentional.
+Component pads, ESD ground and connector contact duplication are local
+non-uniform transitions, not an impedance-controlled microstrip section.
+
+Nominal stackup TOP -> BOTTOM (mm):
+  Top mask             0.0295
+  F.Cu                 0.0350
+  Prepreg              0.1855   nominal Dk 4.74
+  In1.Cu               0.0350
+  Core                 0.4300   nominal Dk 4.60
+  In2.Cu               0.0350
+  Prepreg              0.1855   nominal Dk 4.74
+  B.Cu                 0.0350
+  Bottom mask          0.0295
+  Total                1.0000
+Based on PCBWay's public four-layer 1mm 1oz/1oz nominal example:
+https://www.pcbway.com/multi-layer-laminated-structure.html
+Actual material, resin content, dielectric/copper thickness and mask vary.
+
+BEFORE PRODUCTION: confirm the actual stackup and calculate the 90-ohm pair
+with your field solver. Supply the controlled-impedance calculation/coupon
+verification. Do not silently substitute 1.6mm thickness or change widths in
+CAM. The approx. 89.7-ohm first-order estimate is not a field-solver result,
+measurement or USB certification. If the actual stackup cannot achieve the
+target with this geometry, an engineering revision is required before making.
+
+Minimum routed track width 0.127mm; copper clearance 0.150mm.
+Ordinary through vias: 0.450/0.200mm and 0.500/0.250mm diameter/drill.
+149 vias, ALL tented on BOTH outer faces. NO vias in solder pads.
+No resin fill or copper capping is requested or necessary for this artwork.
+U4 exposed ground land is solid copper without drilled vias; its four local
+ground vias lie outside the solder land. Preserve mask/paste windowing.
+Do not tent component plated contacts or USB shell anchors.
+
+Separate PTH/NPTH Excellon files supplied. The internal LED apertures in
+Edge.Cuts and the switch shaft holes are intentional. Preserve routed slots.
+All four copper layers are required. F.Paste/B.Paste are stencil artwork.
+
+ONE-SIDE FACTORY option: assembly/pcbway-one-side/ BOM/CPL = 67 Bottom parts.
+Customer MUST hand-solder C20 and C21 (100nF 0805) on Top. Bottom stencil only.
+ALL-SMD FACTORY option: assembly/pcbway-all-smd/ = 67 Bottom + 2 Top = 69 parts.
+Never omit C20/C21 from the completed circuit. Do not mix the two BOMs/CPLs.
+See the selected variant's ASSEMBLY-NOTES-PCBWay.txt and assembly SVG drawings.

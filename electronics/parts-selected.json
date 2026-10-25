@@ -1,0 +1,702 @@
+{
+  "J1": {
+    "mpn": "TYPE-C-31-M-12",
+    "lcsc": "C165948",
+    "manufacturer": "Korean Hroparts Elec",
+    "package": "USB-C 16P",
+    "description": "USB 2.0 Type-C receptacle",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M12/C165948",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "U1": {
+    "mpn": "AP2112K-3.3TRG1",
+    "lcsc": "C51118",
+    "manufacturer": "Diodes Incorporated",
+    "package": "SOT-23-5",
+    "description": "3.3V LDO, 600mA",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/DiodesIncorporated-AP2112K_33TRG1/C51118",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "U2": {
+    "mpn": "SN74AHCT1G125DCKR",
+    "lcsc": "C350557",
+    "manufacturer": "Texas Instruments",
+    "package": "SC70-5 / SOT-353",
+    "description": "5V AHCT buffer, TTL-compatible input",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/TexasInstruments-SN74AHCT1G125DCKR/C350557",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "U3": {
+    "mpn": "W25Q128JVSIQ",
+    "lcsc": "C97521",
+    "manufacturer": "Winbond",
+    "package": "SOIC-8-208mil",
+    "description": "128Mbit QSPI NOR flash",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C97521.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "U4": {
+    "mpn": "RP2040",
+    "lcsc": "C2040",
+    "manufacturer": "Raspberry Pi",
+    "package": "QFN-56-EP 7x7mm",
+    "description": "RP2040 microcontroller",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "X1": {
+    "mpn": "ABM8-272-T3",
+    "lcsc": "C20625731",
+    "manufacturer": "Abracon",
+    "package": "3225-4",
+    "description": "12MHz crystal, CL=10pF, ESR=50ohm",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/AbraconLlc-ABM8_272T3/C20625731",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D33": {
+    "mpn": "TPD4E05U06DQAR",
+    "lcsc": "C138714",
+    "manufacturer": "Texas Instruments",
+    "package": "USON-10 2.5x1.0mm",
+    "description": "4-channel low-capacitance ESD protection",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/TexasInstruments-TPD4E05U06DQAR/C138714",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "R7": {
+    "mpn": "0603WAF5101T5E",
+    "lcsc": "C23186",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "5.1kohm 1% 100mW",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C23186.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "R8": {
+    "mpn": "0603WAF5101T5E",
+    "lcsc": "C23186",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0603",
+    "description": "5.1kohm 1% 100mW",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C23186.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "R1": {
+    "mpn": "0402WGF1001TCE",
+    "lcsc": "C11702",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0402",
+    "description": "1kohm 1% 62.5mW",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C11702.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "R4": {
+    "mpn": "0402WGF1001TCE",
+    "lcsc": "C11702",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0402",
+    "description": "1kohm 1% 62.5mW",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C11702.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "R3": {
+    "mpn": "0402WGF1002TCE",
+    "lcsc": "C25744",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0402",
+    "description": "10kohm 1% 62.5mW",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C25744.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "R5": {
+    "mpn": "0402WGF270JTCE",
+    "lcsc": "C25100",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0402",
+    "description": "27ohm 1% 62.5mW",
+    "notes": "LCSC-Seite zeigte bei Recherche keinen Bestand; JLC-Bestand bzw. gleichwertigen 27ohm-0402-1%-Ersatz im Auftrag w\u00e4hlen.",
+    "url": "https://www.lcsc.com/product-detail/C25100.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "R6": {
+    "mpn": "0402WGF270JTCE",
+    "lcsc": "C25100",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0402",
+    "description": "27ohm 1% 62.5mW",
+    "notes": "LCSC-Seite zeigte bei Recherche keinen Bestand; JLC-Bestand bzw. gleichwertigen 27ohm-0402-1%-Ersatz im Auftrag w\u00e4hlen.",
+    "url": "https://www.lcsc.com/product-detail/C25100.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "R2": {
+    "mpn": "0805W8F3300T5E",
+    "lcsc": "C17630",
+    "manufacturer": "UNI-ROYAL",
+    "package": "0805",
+    "description": "330ohm 1% 125mW",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C17630.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C17": {
+    "mpn": "CL21B225KOFNNNE",
+    "lcsc": "C28234",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0805",
+    "description": "2.2uF 16V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/28984-CL21B225KOFNNNE/C28234",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C32": {
+    "mpn": "CL21B225KOFNNNE",
+    "lcsc": "C28234",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0805",
+    "description": "2.2uF 16V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/28984-CL21B225KOFNNNE/C28234",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C18": {
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0805",
+    "description": "10uF 25V X5R 10%",
+    "notes": "LCSC-Seite zeigte bei Recherche keinen Bestand; JLC-Bestand bzw. gleichwertigen 10uF-0805-X5R/X7R-Ersatz mit >=10V im Auftrag w\u00e4hlen.",
+    "url": "https://www.lcsc.com/product-detail/C15850.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C31": {
+    "mpn": "CL21A106KAYNNNE",
+    "lcsc": "C15850",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0805",
+    "description": "10uF 25V X5R 10%",
+    "notes": "LCSC-Seite zeigte bei Recherche keinen Bestand; JLC-Bestand bzw. gleichwertigen 10uF-0805-X5R/X7R-Ersatz mit >=10V im Auftrag w\u00e4hlen.",
+    "url": "https://www.lcsc.com/product-detail/C15850.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C15": {
+    "mpn": "0402CG150J500NT",
+    "lcsc": "C1548",
+    "manufacturer": "FH",
+    "package": "0402",
+    "description": "15pF 50V C0G 5%",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C1548.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C16": {
+    "mpn": "0402CG150J500NT",
+    "lcsc": "C1548",
+    "manufacturer": "FH",
+    "package": "0402",
+    "description": "15pF 50V C0G 5%",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C1548.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C22": {
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0402",
+    "description": "1uF 25V X5R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C24": {
+    "mpn": "CL05A105KA5NQNC",
+    "lcsc": "C52923",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0402",
+    "description": "1uF 25V X5R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/53938-CL05A105KA5NQNC/C52923",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C19": {
+    "mpn": "CL05B104KO5NNNC",
+    "lcsc": "C1525",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0402",
+    "description": "100nF 16V X7R 10%",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C1525.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C20": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "Required local DVDD decoupling. Top-side 0805, suitable for hand soldering. May be factory assembled with the optional all-SMD BOM/CPL.",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C21": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "Required local DVDD decoupling. Top-side 0805, suitable for hand soldering. May be factory assembled with the optional all-SMD BOM/CPL.",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C23": {
+    "mpn": "CL05B104KO5NNNC",
+    "lcsc": "C1525",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0402",
+    "description": "100nF 16V X7R 10%",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C1525.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C25": {
+    "mpn": "CL05B104KO5NNNC",
+    "lcsc": "C1525",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0402",
+    "description": "100nF 16V X7R 10%",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C1525.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C26": {
+    "mpn": "CL05B104KO5NNNC",
+    "lcsc": "C1525",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0402",
+    "description": "100nF 16V X7R 10%",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C1525.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C27": {
+    "mpn": "CL05B104KO5NNNC",
+    "lcsc": "C1525",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0402",
+    "description": "100nF 16V X7R 10%",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C1525.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C28": {
+    "mpn": "CL05B104KO5NNNC",
+    "lcsc": "C1525",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0402",
+    "description": "100nF 16V X7R 10%",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C1525.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C29": {
+    "mpn": "CL05B104KO5NNNC",
+    "lcsc": "C1525",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0402",
+    "description": "100nF 16V X7R 10%",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C1525.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C30": {
+    "mpn": "CL05B104KO5NNNC",
+    "lcsc": "C1525",
+    "manufacturer": "Samsung Electro-Mechanics",
+    "package": "0402",
+    "description": "100nF 16V X7R 10%",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C1525.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C1": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C2": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C3": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C4": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C5": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C6": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C7": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C8": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C9": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C10": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C11": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C12": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "C13": {
+    "mpn": "CC0805KRX7R9BB104",
+    "lcsc": "C49678",
+    "manufacturer": "Yageo",
+    "package": "0805",
+    "description": "100nF 50V X7R 10%",
+    "notes": "",
+    "url": "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D21": {
+    "mpn": "1N4148W",
+    "lcsc": "C81598",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "description": "Fast switching diode 75V 150mA",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C81598.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D22": {
+    "mpn": "1N4148W",
+    "lcsc": "C81598",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "description": "Fast switching diode 75V 150mA",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C81598.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D23": {
+    "mpn": "1N4148W",
+    "lcsc": "C81598",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "description": "Fast switching diode 75V 150mA",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C81598.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D24": {
+    "mpn": "1N4148W",
+    "lcsc": "C81598",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "description": "Fast switching diode 75V 150mA",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C81598.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D25": {
+    "mpn": "1N4148W",
+    "lcsc": "C81598",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "description": "Fast switching diode 75V 150mA",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C81598.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D26": {
+    "mpn": "1N4148W",
+    "lcsc": "C81598",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "description": "Fast switching diode 75V 150mA",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C81598.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D27": {
+    "mpn": "1N4148W",
+    "lcsc": "C81598",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "description": "Fast switching diode 75V 150mA",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C81598.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D28": {
+    "mpn": "1N4148W",
+    "lcsc": "C81598",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "description": "Fast switching diode 75V 150mA",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C81598.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D29": {
+    "mpn": "1N4148W",
+    "lcsc": "C81598",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "description": "Fast switching diode 75V 150mA",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C81598.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D30": {
+    "mpn": "1N4148W",
+    "lcsc": "C81598",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "description": "Fast switching diode 75V 150mA",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C81598.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D31": {
+    "mpn": "1N4148W",
+    "lcsc": "C81598",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "description": "Fast switching diode 75V 150mA",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C81598.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D32": {
+    "mpn": "1N4148W",
+    "lcsc": "C81598",
+    "manufacturer": "ST(Semtech)",
+    "package": "SOD-123",
+    "description": "Fast switching diode 75V 150mA",
+    "notes": "",
+    "url": "https://www.lcsc.com/product-detail/C81598.html",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D1": {
+    "mpn": "SK6812MINI-E",
+    "lcsc": "C5149201",
+    "manufacturer": "OPSCO Optoelectronics",
+    "package": "3.2x2.8mm reverse mount",
+    "description": "Addressable RGB LED, 12mA current version",
+    "notes": "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 best\u00e4tigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Wei\u00df laut Datenblatt h\u00f6chstens 70% Graustufe.",
+    "url": "https://jlcpcb.com/partdetail/SK6812MINI-E/C5149201",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D2": {
+    "mpn": "SK6812MINI-E",
+    "lcsc": "C5149201",
+    "manufacturer": "OPSCO Optoelectronics",
+    "package": "3.2x2.8mm reverse mount",
+    "description": "Addressable RGB LED, 12mA current version",
+    "notes": "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 best\u00e4tigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Wei\u00df laut Datenblatt h\u00f6chstens 70% Graustufe.",
+    "url": "https://jlcpcb.com/partdetail/SK6812MINI-E/C5149201",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D3": {
+    "mpn": "SK6812MINI-E",
+    "lcsc": "C5149201",
+    "manufacturer": "OPSCO Optoelectronics",
+    "package": "3.2x2.8mm reverse mount",
+    "description": "Addressable RGB LED, 12mA current version",
+    "notes": "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 best\u00e4tigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Wei\u00df laut Datenblatt h\u00f6chstens 70% Graustufe.",
+    "url": "https://jlcpcb.com/partdetail/SK6812MINI-E/C5149201",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D4": {
+    "mpn": "SK6812MINI-E",
+    "lcsc": "C5149201",
+    "manufacturer": "OPSCO Optoelectronics",
+    "package": "3.2x2.8mm reverse mount",
+    "description": "Addressable RGB LED, 12mA current version",
+    "notes": "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 best\u00e4tigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Wei\u00df laut Datenblatt h\u00f6chstens 70% Graustufe.",
+    "url": "https://jlcpcb.com/partdetail/SK6812MINI-E/C5149201",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D5": {
+    "mpn": "SK6812MINI-E",
+    "lcsc": "C5149201",
+    "manufacturer": "OPSCO Optoelectronics",
+    "package": "3.2x2.8mm reverse mount",
+    "description": "Addressable RGB LED, 12mA current version",
+    "notes": "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 best\u00e4tigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Wei\u00df laut Datenblatt h\u00f6chstens 70% Graustufe.",
+    "url": "https://jlcpcb.com/partdetail/SK6812MINI-E/C5149201",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D6": {
+    "mpn": "SK6812MINI-E",
+    "lcsc": "C5149201",
+    "manufacturer": "OPSCO Optoelectronics",
+    "package": "3.2x2.8mm reverse mount",
+    "description": "Addressable RGB LED, 12mA current version",
+    "notes": "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 best\u00e4tigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Wei\u00df laut Datenblatt h\u00f6chstens 70% Graustufe.",
+    "url": "https://jlcpcb.com/partdetail/SK6812MINI-E/C5149201",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D7": {
+    "mpn": "SK6812MINI-E",
+    "lcsc": "C5149201",
+    "manufacturer": "OPSCO Optoelectronics",
+    "package": "3.2x2.8mm reverse mount",
+    "description": "Addressable RGB LED, 12mA current version",
+    "notes": "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 best\u00e4tigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Wei\u00df laut Datenblatt h\u00f6chstens 70% Graustufe.",
+    "url": "https://jlcpcb.com/partdetail/SK6812MINI-E/C5149201",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D8": {
+    "mpn": "SK6812MINI-E",
+    "lcsc": "C5149201",
+    "manufacturer": "OPSCO Optoelectronics",
+    "package": "3.2x2.8mm reverse mount",
+    "description": "Addressable RGB LED, 12mA current version",
+    "notes": "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 best\u00e4tigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Wei\u00df laut Datenblatt h\u00f6chstens 70% Graustufe.",
+    "url": "https://jlcpcb.com/partdetail/SK6812MINI-E/C5149201",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D9": {
+    "mpn": "SK6812MINI-E",
+    "lcsc": "C5149201",
+    "manufacturer": "OPSCO Optoelectronics",
+    "package": "3.2x2.8mm reverse mount",
+    "description": "Addressable RGB LED, 12mA current version",
+    "notes": "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 best\u00e4tigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Wei\u00df laut Datenblatt h\u00f6chstens 70% Graustufe.",
+    "url": "https://jlcpcb.com/partdetail/SK6812MINI-E/C5149201",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D10": {
+    "mpn": "SK6812MINI-E",
+    "lcsc": "C5149201",
+    "manufacturer": "OPSCO Optoelectronics",
+    "package": "3.2x2.8mm reverse mount",
+    "description": "Addressable RGB LED, 12mA current version",
+    "notes": "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 best\u00e4tigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Wei\u00df laut Datenblatt h\u00f6chstens 70% Graustufe.",
+    "url": "https://jlcpcb.com/partdetail/SK6812MINI-E/C5149201",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D11": {
+    "mpn": "SK6812MINI-E",
+    "lcsc": "C5149201",
+    "manufacturer": "OPSCO Optoelectronics",
+    "package": "3.2x2.8mm reverse mount",
+    "description": "Addressable RGB LED, 12mA current version",
+    "notes": "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 best\u00e4tigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Wei\u00df laut Datenblatt h\u00f6chstens 70% Graustufe.",
+    "url": "https://jlcpcb.com/partdetail/SK6812MINI-E/C5149201",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  },
+  "D12": {
+    "mpn": "SK6812MINI-E",
+    "lcsc": "C5149201",
+    "manufacturer": "OPSCO Optoelectronics",
+    "package": "3.2x2.8mm reverse mount",
+    "description": "Addressable RGB LED, 12mA current version",
+    "notes": "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 best\u00e4tigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Wei\u00df laut Datenblatt h\u00f6chstens 70% Graustufe.",
+    "url": "https://jlcpcb.com/partdetail/SK6812MINI-E/C5149201",
+    "verification": "Hersteller/MPN/Geh\u00e4use im Katalog gepr\u00fcft; JLCPCB-Lagerbestand bei Auftrag pr\u00fcfen"
+  }
+}

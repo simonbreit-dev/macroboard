@@ -1,43 +1,158 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
 
-# Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*-cache*
-*-bak
-*-bak*
-*~
-~*
-_autosave-*
-\#auto_saved_files\#
-*.tmp
-*-save.pro
-*-save.kicad_pcb
-fp-info-cache
-~*.lck
-\#auto_saved_files#
+# ==========================================
+# macOS / Windows
+# ==========================================
 
-# Netlist files (exported from Eeschema)
-*.net
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100/
+.Trashes/
+Thumbs.db
+Desktop.ini
 
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
 
-# Exported BOM files
-*.xml
-*.csv
-
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
-
-# Local git-based history (KiCad 9.0+)
-.history
+# ==========================================
+# KiCad - Electronics / PCB
+# ==========================================
 
 # Local project settings
 *.kicad_prl
+
+# Automatic backups
+*-backups/
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*.bak
+*.bck
+*-save.kicad_pcb
+*-save.pro
+
+# Autosave and recovery
+_autosave-*
+\#auto_saved_files\#
+
+# Local KiCad history (KiCad 9+)
+.history/
+
+# Lock files
+~*.lck
+
+# Cache
+fp-info-cache
+*-cache*
+
+# Generated netlists and autorouter files
+*.net
+*.dsn
+*.ses
+
+
+# ==========================================
+# Fusion 360 - Mechanical / Enclosure
+# ==========================================
+
+# Keep .f3d and .f3z design archives!
+# Keep STEP files used by KiCad or CAD.
+# Keep STL files that are intentionally
+# version-controlled.
+
+# Temporary and backup files
+*.f3d.bak
+*.f3z.bak
+
+# Local export / render output
+renders/
+render-cache/
+
+
+# ==========================================
+# Firmware - C / C++ / MicroPython
+# ==========================================
+
+# Build directories
+build/
+dist/
+out/
+.pio/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Compiler output
+*.o
+*.obj
+*.elf
+*.hex
+*.uf2
+*.map
+*.d
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+
+# JetBrains IDEs
+.idea/
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Emacs
+*~
+\#*\#
+
+# VS Code
+# Keep .vscode/ for shared project config
+.vscode/*.log
+
+
+# ==========================================
+# Temporary files / Logs
+# ==========================================
+
+*.tmp
+*.temp
+*.log
+*.old
+*.orig
+*.rej
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+
+
+# ==========================================
+# Generated project files
+# ==========================================
+
+# Use these directories for disposable exports
+generated/
+.cache/
+
+# Optional KiCad production exports:
+# gerbers/
+# fabrication/
+# assembly/
+
