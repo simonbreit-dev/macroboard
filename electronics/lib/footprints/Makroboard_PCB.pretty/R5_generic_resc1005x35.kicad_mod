@@ -121,7 +121,7 @@
 			)
 		)
 	)
-	(property "Assembly note" "LCSC-Seite zeigte bei Recherche keinen Bestand; JLC-Bestand bzw. gleichwertigen 27ohm-0402-1%-Ersatz im Auftrag wählen."
+	(property "Assembly note" ""
 		(at 0 0 90)
 		(layer "F.SilkS")
 		(hide yes)

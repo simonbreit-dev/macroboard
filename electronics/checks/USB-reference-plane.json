@@ -1,8 +1,0 @@
-{
-  "board_SHA256": "9fd2901c903abd8191913d299989c520ec7a5caf3d1a955ca529f46cd2e93b87",
-  "checked": "In2 GND filled copper under Bottom USB traces, 0.1 mm longitudinal sampling, centre and +/-0.10 mm transverse points",
-  "samples": 1983,
-  "known_local_USB_C_contact_via_transition_samples_excluded": 64,
-  "points_without_GND": [],
-  "not_a_field_solver_or_impedance_measurement": true
-}

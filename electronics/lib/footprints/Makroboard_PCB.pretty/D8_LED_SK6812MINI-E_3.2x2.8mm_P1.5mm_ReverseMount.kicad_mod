@@ -117,7 +117,7 @@
 			)
 		)
 	)
-	(property "Assembly note" "JLC Standard PCBA only; Reverse-Mount-Ausrichtung und Variante SK6812MINI-E-012 bestätigen. Datenblatt: Pin1 GND,2 DIN,3 VDD,4 DOUT. Bei RGB-Weiß laut Datenblatt höchstens 70% Graustufe."
+	(property "Assembly note" "JLC Standard PCBA only; confirm reverse-mount orientation and the SK6812MINI-E-012 variant. Datasheet pinout: pin 1 GND, 2 DIN, 3 VDD, 4 DOUT. For RGB white, limit the grayscale setting to 70% as specified in the datasheet."
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)

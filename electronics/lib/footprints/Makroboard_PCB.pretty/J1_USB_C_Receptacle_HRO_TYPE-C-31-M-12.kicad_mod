@@ -411,15 +411,4 @@
 		(uuid "9cfc32ae-bfe6-4280-b4bd-b60645d14411")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3dmodels/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step"
-		(offset
-			(xyz -4.47 -3.65 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -90 0 0)
-		)
-	)
 )

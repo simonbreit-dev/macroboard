@@ -1,9 +1,0 @@
-{
-  "variant": "pcbway-one-side",
-  "factory_parts": 67,
-  "factory_Top": 0,
-  "factory_Bottom": 67,
-  "BOM_groups": 19,
-  "C20_C21_required": true,
-  "C20_C21_manual": true
-}

@@ -1,49 +1,125 @@
-# Makroboard – USB-C an der Oberkante
+# Electronics
 
-**80 × 82 mm, vier Lagen, nominell 1,0 mm.** Gegenüber der vorherigen Version mit 80 × 122 mm ist die Fläche um **32,8 %** kleiner. Revision TOP-USB vom 17.10.2026, KiCad 10. Die Abmessungen der vorherigen kompakten Version bleiben erhalten.
+Revision **TOP-USB**, 2026-10-17: 80 × 82 mm, four copper layers, nominal finished
+PCB thickness of 1.0 mm. Twelve keys form a 4×3 matrix with 19.05 mm key spacing;
+the top row is 23 mm from the lower 3×3 block. Two encoders with push buttons sit
+at the lower right, with USB-C on the top edge.
 
-![Anordnung](preview/layout-overview.png)
+## Opening the project
 
-Die zwölf Tasten stehen in drei Spalten mit 19,05 mm Abstand: oben eine Dreierreihe, darunter der 3×3-Block. Der Abstand zwischen oberer Reihe und Block beträgt 23 mm. Die beiden Encoder sitzen jetzt **rechts unten** übereinander, auf Höhe der unteren zwei Tastenreihen. USB-C sitzt **direkt an der Oberkante**, rechts neben der oberen Tastenreihe. Der Controllerbereich liegt darunter rechts oben. Die empfindlichen internen Verbindungen wurden als zusammenhängende Gruppe gedreht und erhalten; Matrix, Encoder und LED-Kette wurden neu verdrahtet. Die Zeichnung zeigt beispielhafte 17,6-mm-Tastenkappen und 18-mm-Knöpfe; Gehäuse und tatsächlich gewählte Bedienteile separat mechanisch abstimmen.
+Open `makroboard.kicad_pro` with KiCad 10. The files were edited with KiCad 10.0.7.
+The KiCad standard libraries are required, along with the included
+`Makroboard.kicad_sym` symbol library and the footprints under
+`lib/footprints/Makroboard_PCB.pretty/`. The library tables use project-relative
+paths.
 
-## Bestückung
+`makroboard.kicad_sch` is the main schematic;
+`RPI-RP2040-MINIMAL_R3-S1.kicad_sch` is the required controller subsheet, adapted
+for Makroboard. Its filename identifies the original reference design. See
+[THIRD_PARTY.md](../THIRD_PARTY.md) for attribution and licenses.
 
-**67 SMD-/Hybrid-Bauteile liegen unten, nur C20 und C21 oben.** Diese beiden zwingend benötigten 100-nF-Kondensatoren liegen direkt gegenüber den DVDD-Pins des RP2040 und sind für Handlöten als **0805** ausgeführt. Die Verbindungslängen betragen einschließlich des Seitenwechsels etwa 3,6 und 3,2 mm. Sie wegzulassen wäre elektrisch falsch.
+The optional external 3D models for USB-C and the encoders are not included.
+Other components use embedded reference models and KiCad standard models.
+Enclosure and control dimensions must be checked against manufacturer data;
+no enclosure design is included.
 
-Zwei getrennte Bestückungsvarianten sind vorbereitet; **genau eine** wählen:
+## Assembly and fabrication
 
-| Variante | Fabrik | Handlöten |
-|---|---|---|
-| `assembly/pcbway-one-side/` | 67 Bauteile, ausschließlich Bottom | C20 + C21 auf Top, zusätzlich Tasten/Encoder |
-| `assembly/pcbway-all-smd/` | 69 Bauteile: 67 Bottom + 2 Top | Tasten/Encoder |
+67 SMD/hybrid components are on Bottom; the two required 100 nF capacitors C20/C21
+are on Top. C20/C21 use 0805 packages and can be hand-soldered after single-sided
+factory assembly. One suitable part is Yageo CC0805KRX7R9BB104, LCSC C49678,
+100 nF, 50 V, X7R, 10%.
 
-Bei einseitiger Fabrikbestückung enthält `assembly/MANUAL-SMD-PARTS.csv` die beiden zusätzlichen Kondensatoren: Yageo **CC0805KRX7R9BB104**, LCSC **C49678**, 100 nF, 50 V, X7R, 10 %. Gleicher Typ wie die bereits verwendeten 0805-Kondensatoren. R3 bleibt DNP. J2 ist ein optionaler BOOT-Header; Testpads werden nicht eingekauft. Die vollständigen JLCPCB-Dateien unter `assembly/` enthalten **alle 69** SMD-/Hybrid-Bauteile.
+R3 remains DNP. Keys, encoders, and the optional BOOT header J2 are assembled
+separately. Test pads are not purchased components. The LEDs are reverse-mount
+SK6812MINI-E devices on Bottom, shining through the PCB toward Top; confirm the
+exact variant, pinout, and permitted brightness against the datasheet.
 
-Für PCBWay gehören jeweils BOM, CPL und die Bestückungshinweise aus demselben Variantenordner zusammen. Gerber, Bohrdaten und `FABRICATION-NOTES.txt` sind für beide Varianten identisch. Die einseitige Variante benötigt nur eine Bottom-Pastenschablone; C20/C21 werden anschließend von Hand gelötet. Positionswinkel stammen unverändert aus KiCad; der Bestücker muss seine Maschinenbibliothek und Pin-1-Ausrichtungen im CAM abgleichen. Lagerbestand und aktuelles Angebot wurden nicht neu bestätigt.
+Include the [fabrication requirements](FABRICATION-NOTES.txt) with every
+manufacturing order. In particular, the manufacturer must confirm 90 Ω ±10% USB
+differential impedance for its actual four-layer stackup.
 
-## Projekt und Firmware
+## Firmware interface
 
-`makroboard.kicad_pro` öffnen. Die lokalen Symbol- und Footprint-Bibliotheken sind enthalten. Die **GPIO-Belegung ist gegenüber der vorherigen kompakten 80×82-mm-Version unverändert**; `firmware-pinmap.csv` enthält die vollständige aktuelle Zuordnung. Die Schaltpläne werden elektrisch unverändert mitgeliefert und gegen die neue PCB geprüft.
+Firmware and an app are not included. The following assignments describe the
+current design; they are not instructions for firmware that is already available.
 
-Die LED-Kette beginnt jetzt bei **D1 unter SW3 rechts oben** und läuft schlangenförmig nach unten: SW3 → SW2 → SW1 → SW4 → SW5 → SW6 → SW9 → SW8 → SW7 → SW10 → SW11 → SW12. `led-key-map.csv` enthält die LED-Indizes. Die Zuordnung der LED-Farben in der Firmware/App entsprechend anpassen. D1 liegt damit nahe am Controller und seinem Pegelwandler.
+| Signal | GPIO | RP2040 pin |
+|---|---:|---:|
+| MATRIX_COL_1 | 0 | 2 |
+| MATRIX_COL_2 | 18 | 29 |
+| MATRIX_COL_3 | 17 | 28 |
+| MATRIX_ROW_1 | 3 | 5 |
+| MATRIX_ROW_2 | 22 | 34 |
+| MATRIX_ROW_3 | 11 | 14 |
+| MATRIX_ROW_4 | 6 | 8 |
+| LED_DATA | 8 | 11 |
+| ENC_1_A | 29 | 41 |
+| ENC_1_B | 28 | 40 |
+| ENC_1_PUSH | 9 | 12 |
+| ENC_2_A | 26 | 38 |
+| ENC_2_B | 19 | 30 |
+| ENC_2_PUSH | 24 | 36 |
 
-Die USB-Hauptstrecken vom ESD-Schutz zu den Serienwiderständen messen jetzt rund **27 / 28 mm statt 45 / 45 mm**. Die Verbindungslängen der Versorgungskondensatoren, Flash-Anbindung und Quarzschaltung bleiben erhalten. Die Bauteilauswahl einschließlich der zwei Top-Kondensatoren in 0805 bleibt gleich. Neue BOM/CPL und Gerber verwenden: Die früheren Positionen passen nicht mehr.
+The LED chain starts below SW3 at the upper right and follows a serpentine path
+down the board:
 
-## Controller und Prüfstand
+| LED index (zero-based) | LED | Key | Matrix row | Matrix column |
+|---:|---|---|---:|---:|
+| 0 | D1 | SW3 | 1 | 3 |
+| 1 | D2 | SW2 | 1 | 2 |
+| 2 | D3 | SW1 | 1 | 1 |
+| 3 | D4 | SW4 | 2 | 1 |
+| 4 | D5 | SW5 | 2 | 2 |
+| 5 | D6 | SW6 | 2 | 3 |
+| 6 | D7 | SW9 | 3 | 3 |
+| 7 | D8 | SW8 | 3 | 2 |
+| 8 | D9 | SW7 | 3 | 1 |
+| 9 | D10 | SW10 | 4 | 1 |
+| 10 | D11 | SW11 | 4 | 2 |
+| 11 | D12 | SW12 | 4 | 3 |
 
-Die lokalen Versorgungskondensatoren, Flash-/BOOT-Anbindung, Quarzbereich, USB-Widerstände und Masseführung wurden erneut anhand des [RP2040 Hardware Guide](https://datasheets.raspberrypi.com/rp2040/hardware-design-with-rp2040.pdf) kontrolliert. Alle Vias liegen außerhalb der Lötpads und sind auf beiden Seiten mit Lötstopp abgedeckt. Das RP2040-Massepad ist geschlossen; Resin-Füllung und Kupferkappen sind für dieses Layout nicht vorgesehen.
+## Checks and exports
 
-Ergebnisse und Messwerte stehen in `PRUEFBERICHT.md` und `checks/`. Das ist ein am Rechner geprüfter Entwurf, **kein erprobter Prototyp**. Die USB-Impedanz muss der Hersteller für seinen tatsächlichen vierlagigen 1-mm-Aufbau bestätigen; Einzelheiten stehen in `FABRICATION-NOTES.txt`. Nicht einfach einen anderen Standard-Lagenaufbau bestellen.
+Run these commands from the repository root. On macOS, add
+`/Applications/KiCad/KiCad.app/Contents/MacOS/` to `PATH` to use `kicad-cli`.
+Outputs remain local and are excluded by `.gitignore`.
 
-## Dateien
+```sh
+mkdir -p electronics/checks electronics/generated/gerbers
+kicad-cli sch erc --format json --severity-all --exit-code-violations \
+  -o electronics/checks/erc.json electronics/makroboard.kicad_sch
+kicad-cli pcb drc --format json --schematic-parity --refill-zones \
+  --exit-code-violations -o electronics/checks/drc.json \
+  electronics/makroboard.kicad_pcb
+kicad-cli pcb export gerbers \
+  --layers F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,F.Paste,B.Paste,Edge.Cuts \
+  --use-drill-file-origin --subtract-soldermask --check-zones \
+  -o electronics/generated/gerbers/ electronics/makroboard.kicad_pcb
+kicad-cli pcb export drill --format excellon --drill-origin plot \
+  --excellon-separate-th --excellon-oval-format route \
+  -o electronics/generated/gerbers/ electronics/makroboard.kicad_pcb
+```
 
-- `*.kicad_pro`, `*.kicad_sch`, `*.kicad_pcb`, `lib/`, Bibliothekstabellen: editierbares Projekt.
-- `gerbers/`: vier Kupferlagen, Lötstopp, Bestückungsdruck, Paste, Kontur und getrennte PTH-/NPTH-Bohrdaten.
-- `assembly/`: getrennte PCBWay-Varianten, vollständige JLCPCB-Dateien, Roh-Positionsexport und Bauteilauswahl.
-- `preview/`: 3D-Ansichten, Bestückungszeichnungen und schematische Bedienteilanordnung.
-- `checks/`: elektrische und geometrische Prüfergebnisse, Netlist, Leitungslängen und Exportprotokoll.
-- `SHA256SUMS.txt`: Zuordnung aller Lieferdateien zu dieser Revision.
+Always generate Gerbers, drill files, and any BOM/placement files from the same
+project revision, and inspect them together in KiCad/Gerber Viewer. For new
+assembly exports, explicitly define which parts are factory-assembled and which
+are hand-soldered. The assembler must verify machine rotation offsets against
+the pin-1 markings. Old local exports are not an approved manufacturing package.
 
-## Erstes Einschalten
+The project intentionally disables some ERC/DRC rules, such as missing
+courtyards. Interpret a successful check within that configuration; it does not
+verify enclosure fit or hardware functionality.
 
-Nach Bestückung einschließlich C20/C21 auf Lötbrücken prüfen. Beim ersten Einschalten Stromaufnahme beobachten und +3V3 sowie +1V1 kontrollieren. Für den ROM-USB-Bootloader J2 Pin 1 mit GND verbinden, RUN an TP3 kurz auf GND ziehen und wieder lösen; anschließend BOOT lösen. `RPI-RP2` sollte erscheinen. Alternativ über SWD programmieren: TP1 SWCLK, TP2 SWDIO, TP3 RUN, TP4 GND, TP5 3,3-V-Referenz. LEDs zunächst mit geringer Helligkeit testen; die Hinweise zur gewählten SK6812MINI-E-Variante in der BOM beachten.
+## First power-up
+
+The design **has not been tested as a physical prototype**. After completing
+assembly, including C20/C21, check for solder bridges, monitor current draw, and
+verify the +3V3 and +1V1 supplies.
+
+To enter the ROM USB bootloader, connect J2 pin 1 to GND, briefly pull RUN at TP3
+to GND and release it, then release BOOT. `RPI-RP2` should appear. Alternatively,
+use TP1 SWCLK, TP2 SWDIO, TP3 RUN, TP4 GND, and TP5 as the 3.3 V reference for SWD.
+Start LED testing at low brightness. Power-up, flashing, USB communication, and
+key/encoder/LED operation must be verified on an assembled board with suitable
+firmware.

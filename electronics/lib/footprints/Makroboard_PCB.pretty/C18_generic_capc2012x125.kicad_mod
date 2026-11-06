@@ -121,7 +121,7 @@
 			)
 		)
 	)
-	(property "Assembly note" "LCSC-Seite zeigte bei Recherche keinen Bestand; JLC-Bestand bzw. gleichwertigen 10uF-0805-X5R/X7R-Ersatz mit >=10V im Auftrag wählen."
+	(property "Assembly note" ""
 		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)

@@ -1,6 +1,0 @@
-USB_C_Receptacle_HRO_TYPE-C-31-M-12.step
-Unmodified model downloaded 2026-10-15 from:
-https://github.com/NabuCasa/yellow-3dshapes/blob/main/USB_C_Receptacle_HRO_TYPE-C-31-M-12.step
-Upstream source identified by that repository: https://github.com/ai03-2725/Type-C.pretty
-Converted by Nabu Casa using FreeCAD/KiCadStepUp.
-This model is used for visualization; component dimensions are defined by the HRO datasheet.

@@ -1,8 +1,4 @@
-
-# ==========================================
-# macOS / Windows
-# ==========================================
-
+# Operating system files
 .DS_Store
 ._*
 .AppleDouble
@@ -12,15 +8,9 @@
 Thumbs.db
 Desktop.ini
 
-
-# ==========================================
-# KiCad - Electronics / PCB
-# ==========================================
-
-# Local project settings
+# KiCad local state, backups and caches
 *.kicad_prl
-
-# Automatic backups
+.history/
 *-backups/
 *.kicad_pcb-bak
 *.kicad_sch-bak
@@ -29,130 +19,61 @@ Desktop.ini
 *.bck
 *-save.kicad_pcb
 *-save.pro
-
-# Autosave and recovery
 _autosave-*
 \#auto_saved_files\#
-
-# Local KiCad history (KiCad 9+)
-.history/
-
-# Lock files
 ~*.lck
-
-# Cache
 fp-info-cache
-*-cache*
-
-# Generated netlists and autorouter files
 *.net
 *.dsn
 *.ses
 
+# Generated electronics exports and development checks
+/electronics/checks/
+/electronics/gerbers/
+/electronics/assembly/
+/electronics/preview/
+/electronics/PRUEFBERICHT.md
+/electronics/SHA256SUMS.txt
+/electronics/parts-selected.json
+# Current pin/LED mappings are documented in electronics/README.md
+/electronics/firmware-pinmap.csv
+/electronics/led-key-map.csv
 
-# ==========================================
-# Fusion 360 - Mechanical / Enclosure
-# ==========================================
+# Retired footprints and optional models retained in the local checkout
+/electronics/lib/footprints/Makroboard_PCB.pretty/C20_generic_capc1005x50.kicad_mod
+/electronics/lib/footprints/Makroboard_PCB.pretty/C21_generic_capc1005x50.kicad_mod
+/electronics/lib/3dmodels/
 
-# Keep .f3d and .f3z design archives!
-# Keep STEP files used by KiCad or CAD.
-# Keep STL files that are intentionally
-# version-controlled.
-
-# Temporary and backup files
-*.f3d.bak
-*.f3z.bak
-
-# Local export / render output
-renders/
-render-cache/
-
-
-# ==========================================
-# Firmware - C / C++ / MicroPython
-# ==========================================
-
-# Build directories
+# Local agent/editor state and disposable output
+/.codex/
+/.claude/
+/.cursor/
+/.aider*
+/.local/
+.idea/
+.vscode/*.log
+*.swp
+*.swo
+*~
+\#*\#
+generated/
 build/
 dist/
-out/
-.pio/
-
-# CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-compile_commands.json
-
-# Compiler output
-*.o
-*.obj
-*.elf
-*.hex
-*.uf2
-*.map
-*.d
-
-# Python
+renders/
+render-cache/
+.cache/
 __pycache__/
 *.py[cod]
 .venv/
 venv/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.tox/
 
-
-# ==========================================
-# IDE / Editors
-# ==========================================
-
-# JetBrains IDEs
-.idea/
-
-# Vim
-*.swp
-*.swo
-*.swn
-
-# Emacs
-*~
-\#*\#
-
-# VS Code
-# Keep .vscode/ for shared project config
-.vscode/*.log
-
-
-# ==========================================
-# Temporary files / Logs
-# ==========================================
-
+# Local environments, logs and temporary files
+.env
+.env.*
+!.env.example
+*.log
 *.tmp
 *.temp
-*.log
 *.old
 *.orig
 *.rej
-
-# Local environment files
-.env
-.env.local
-.env.*.local
-!.env.example
-
-
-# ==========================================
-# Generated project files
-# ==========================================
-
-# Use these directories for disposable exports
-generated/
-.cache/
-
-# Optional KiCad production exports:
-# gerbers/
-# fabrication/
-# assembly/
-

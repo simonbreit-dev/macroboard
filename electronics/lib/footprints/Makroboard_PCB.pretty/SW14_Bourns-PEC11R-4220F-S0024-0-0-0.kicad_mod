@@ -337,15 +337,4 @@
 		(uuid "80347bec-5309-4289-bd1f-e0f8d41b25be")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/3dmodels/Bourns_-_PEC11R-4220F-S0024.step"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

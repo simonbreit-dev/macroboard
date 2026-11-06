@@ -33,7 +33,7 @@
 			)
 		)
 	)
-	(property "Datasheet" "file:///C:\\rpi-pdb\\parts\\Connectors\\Pin_Headers\\SAMTEC_TSW-102-07-G-S\\datasheets"
+	(property "Datasheet" ""
 		(at 2.54 -1.27 0)
 		(unlocked yes)
 		(layer "F.SilkS")

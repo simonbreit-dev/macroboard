@@ -1,2 +1,0 @@
-Designator,Quantity,Value,Package,Manufacturer,MPN,LCSC,Side,Requirement
-"C20,C21",2,100nF 50V X7R 10%,0805,Yageo,CC0805KRX7R9BB104,C49678,Top,REQUIRED if using the one-side factory assembly option. Not optional / not DNP.
